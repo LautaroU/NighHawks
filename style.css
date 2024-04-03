@@ -1,0 +1,116 @@
+.imagen {
+    height: 690px;
+    width: 1300px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+img {
+    border-style: solid;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    
+}
+
+body {
+   margin: 0px;
+   background-image: url(./images/nighthawks.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+.dialogo {
+    display: flex;
+        
+}
+@font-face {
+    font-family: 'Typewriter';
+    src: url('./Font/JMH\ Typewriter.otf');
+}
+.texto {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: 'Typewriter';
+    margin-top: 20px;
+    margin-right: 20px;
+    border-color: rgb(87, 86, 86);
+    
+   
+}
+
+.fecha {
+    font-family: 'Typewriter';
+    border-color: rgb(87, 86, 86);
+    margin-top: 20px;
+    margin-right: 10px;
+    
+    border-bottom: 1px solid;
+    
+}
+
+.fotoCara {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.adaptador {
+    display: flex;
+    margin-bottom: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.nombre {
+    font-family: 'Typewriter';
+    text-align: center;
+    
+    
+}
+
+.bloque {
+    background-color: white;
+    height: 300px;
+    width: 700px;
+    margin: 20px;
+    background-image: url(./images/bloque.jpg);
+}
+
+.contentText {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Qui {
+    display: flex;
+    background-color: black;
+    font-family: 'Typewriter';
+    font-size: 40px;
+    color: white;
+    justify-content: center;
+    width: 150px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.bloquePadre {
+    display: flex;
+    flex-direction: row;
+}
+
+.bloqueSiNo {
+    display: flex;
+    width: 200px;
+    margin: 10px;
+    justify-content: center;
+
+}
